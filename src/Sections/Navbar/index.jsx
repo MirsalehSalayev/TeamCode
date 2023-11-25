@@ -1,5 +1,6 @@
 import React from 'react'
 import "./index.scss"
+import Button from '../../Components/Button'
 
 function Navbar() {
   return (
@@ -43,7 +44,7 @@ function Navbar() {
             <li><a href="">Contact us</a></li>
           </ul>
           <div className="getInTouch">
-           
+           <Button></Button>
           </div>
         </div>
 
