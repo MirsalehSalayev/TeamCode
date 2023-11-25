@@ -1,5 +1,5 @@
 import React from 'react'
-import "./index.scss"
+import "./_footer.scss"
 
 function Footer() {
     return (
@@ -61,9 +61,9 @@ function Footer() {
             </div>
             <div className="footerBottom">
                 <div className="rightsAreReserved">Bookland Book Store Ecommerce Website - © 2022 All Rights Reserved</div>
-          <div className="madeWithLove">
-            Made with <i class="fa-solid fa-heart"> </i> by Group № 4
-          </div>
+                <div className="madeWithLove">
+                    Made with <i class="fa-solid fa-heart"> </i> by Group № 4
+                </div>
             </div>
         </footer>
     )
