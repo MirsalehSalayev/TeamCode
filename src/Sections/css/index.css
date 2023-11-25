@@ -1,1 +1,103 @@
 /*# sourceMappingURL=index.css.map */
+  display: flex;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+header #headerTop .leftSide {
+  width: 30%;
+}
+header #headerTop .rightSide {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+header #headerTop .rightSide .headerSearchPanel {
+  display: flex;
+  background-color: #f5f5f5;
+  align-items: center;
+  width: 80%;
+  border-radius: 5px;
+}
+header #headerTop .rightSide .headerSearchPanel select {
+  background-color: #f5f5f5;
+  border: 1px solid #f5f5f5;
+  padding: 10px;
+  color: #b6b6b6;
+  font-size: 18px;
+  outline: none;
+  padding-right: 40px;
+  height: 100%;
+  width: 30%;
+  border-radius: 5px;
+}
+header #headerTop .rightSide .headerSearchPanel select :hover {
+  outline: none;
+  border: none;
+}
+header #headerTop .rightSide .headerSearchPanel .searchInput {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+}
+header #headerTop .rightSide .headerSearchPanel .searchInput input {
+  background-color: #f5f5f5;
+  border: 1px solid #f5f5f5;
+  outline: 0;
+  padding: 10px;
+  font-size: 20px;
+  border-left: 1px solid rgb(192, 190, 190);
+  color: #56548b;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+header #headerTop .rightSide .headerSearchPanel .searchInput input::placeholder {
+  color: #504e88;
+}
+header #headerTop .rightSide .headerSearchPanel .searchInput .searchIcon {
+  width: max-content;
+  padding-right: 15px;
+  font-size: 20px;
+  color: #b6b6b6;
+  font-weight: 100;
+}
+header #headerTop .rightSide .icons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+header #headerTop .rightSide .icons div {
+  position: relative;
+  padding: 10px;
+  font-size: 24px;
+}
+header #headerTop .rightSide .icons div span {
+  font-size: 16px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #E5588D;
+  width: 15px;
+  text-align: center;
+  border-radius: 5px;
+}
+header #headerTop .rightSide .icons .photo {
+  background-color: #b6b6b6;
+  border-radius: 5px;
+}
+header #navigation .links ul {
+  display: flex;
+}
+header #navigation .links ul li {
+  transition: 0.5s;
+}
+header #navigation .links ul li a {
+  color: #071c35;
+  transition: 0.5s;
+}
+header #navigation .links ul li a:hover {
+  color: #E5588D;
+}/*# sourceMappingURL=index.css.map */

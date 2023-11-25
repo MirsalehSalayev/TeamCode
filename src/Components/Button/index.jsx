@@ -1,8 +1,9 @@
 import React from 'react'
+import "./index.scss"
 
 const Button = () => {
     return (
-        <h1>salam</h1>
+        <button>{title}</button>
     )
 }
 
