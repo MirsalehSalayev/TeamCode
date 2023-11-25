@@ -1,0 +1,33 @@
+.iconCart{
+    width: 277px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    .iconHeader{
+        color: #071c35;
+        font-size: 1.25rem;
+        font-weight: 600;
+        line-height: 1.4;
+    }
+    .iconText{
+        color: #aaa;
+        text-align: center;
+    }
+    .icon{
+        background-color: rgba(229, 88, 141, 0.1);
+        color:#e5588d;
+        width: 60px;
+        height: 60px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         border-radius: 7px;
+         transition: 500ms;
+         &:hover{
+            background-color:#e5588d; 
+            color: white;
+         }
+    }
+}
