@@ -11,9 +11,7 @@ function App() {
     <>
       <Navbar />
       <Pushing />
-
 <RecomendedForYou/>
-
       <OurMission/>
       <Footer />
     </>
