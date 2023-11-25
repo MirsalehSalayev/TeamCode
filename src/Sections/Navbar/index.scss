@@ -1,4 +1,6 @@
 header {
+    // margin-bottom: 20px;
+
     #headerTop {
         max-width: 80%;
         display: flex;
@@ -105,6 +107,37 @@ header {
                     border-radius: 5px;
                 }
             }
+
+            .responsivePart {
+                display: none;
+                gap: 10px;
+                height: 50px;
+
+                .navButton {
+
+                    display: flex;
+                    align-items: center;
+                    background-color: #E5588D;
+                    padding: 8px;
+                    font-size: 18px;
+                    border: none;
+                    border-radius: 5px;
+                    color: white;
+
+                }
+
+                .getInTouch {
+                    button {
+                        background-color: #E5588D;
+                        // padding: 8px;
+                        font-size: 18px;
+                        border: none;
+                        border-radius: 5px;
+                        color: white;
+                        height: 100%;
+                    }
+                }
+            }
         }
     }
 
@@ -115,10 +148,25 @@ header {
         .navCont {
             width: 80%;
             margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .getInTouch {
+                button {
+                    background-color: #E5588D;
+                    padding: 15px;
+                    font-size: 18px;
+                    border: none;
+                    border-radius: 5px;
+                    color: white;
+                }
+            }
 
             .links {
                 display: flex;
                 gap: 10px;
+                color: #071c35;
 
                 i {
                     font-size: 14px;
@@ -164,7 +212,8 @@ header {
                         position: absolute;
                         display: none;
                         transition: .3s;
-                        padding-top: 15px;
+                        padding-top: 30px;
+                        // margin-top: 17%;
 
                         ul {
                             opacity: 0;
@@ -194,6 +243,45 @@ header {
                     }
                 }
             }
+        }
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    header {
+        box-shadow: 0px 10px 5px 0px rgba(199, 199, 199, 0.59);
+        -webkit-box-shadow: 0px 10px 5px 0px rgba(199, 199, 199, 0.59);
+        -moz-box-shadow: 0px 10px 5px 0px rgba(199, 199, 199, 0.59);
+
+        #headerTop {
+
+            .rightSide {
+                justify-content: end;
+
+                .headerSearchPanel {
+                    display: none;
+                }
+
+                .icons {
+                    display: none;
+                }
+
+                .responsivePart {
+                    display: flex;
+                }
+            }
+        }
+
+        #navigation {
+            display: none;
+        }
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .responsivePart {
+        .getInTouch {
+            display: none;
         }
     }
 }

@@ -31,18 +31,29 @@ function Navbar() {
                         </div>
                         <div className="photo"><i class="fa-regular fa-user"></i></div>
                     </div>
+                    <div className="responsivePart">
+                        <div className="navButton">
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+                        <div className="getInTouch">
+                            <button>Get in Touch</button>
+                        </div>
+
+                    </div>
                 </div>
+
             </div>
             <nav id='navigation'>
                 <div className="navCont">
-                    <div className="links"><div className="home">Home <i class="fa-solid fa-chevron-down"></i>
-                        <div className="dropDown">
-                            <ul>
-                                <li>Lorem.</li>
-                                <li>Lorem.</li>
-                                <li>Lorem.</li>
-                                <li>Lorem.</li>
-                            </ul></div></div>
+                    <div className="links">
+                        <div className="home">Home <i class="fa-solid fa-chevron-down"></i>
+                            <div className="dropDown">
+                                <ul>
+                                    <li>Lorem.</li>
+                                    <li>Lorem.</li>
+                                    <li>Lorem.</li>
+                                    <li>Lorem.</li>
+                                </ul></div></div>
                         <div className="pages">Pages <i class="fa-solid fa-chevron-down"></i>
                             <div className="dropDown">
                                 <ul>
@@ -70,11 +81,11 @@ function Navbar() {
                                 </ul></div></div>
                         <div className="contactUs"><a href="">Contact us</a></div>
                     </div>
-                    <div className="links">
-                        <div className="getInTouch">
 
-                        </div>
+                    <div className="getInTouch">
+                        <button>Get in Touch</button>
                     </div>
+
                 </div>
 
             </nav>
