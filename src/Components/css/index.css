@@ -1,8 +1,59 @@
-.Card {
-  background-color: red;
-  width: 200px;
-  height: 200px;
+.ourMissionCard {
+  max-width: 370px;
+  min-height: 370px;
+  background-color: white;
+  border-radius: 15px;
+  transition: all 800ms;
 }
-.Card .CardText {
-  color: greenyellow;
-}/*# sourceMappingURL=index.css.map */
+
+.ourMissionCard .cardContent {
+  max-width: 370px;
+  min-height: 370px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 45px;
+  gap: 20px;
+}
+
+.ourMissionCard .cardContent .icon {
+  color: #1a1668;
+  font-size: 60px;
+}
+
+.ourMissionCard .cardContent .cardInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  gap: 20px;
+}
+
+.ourMissionCard .cardContent .cardInfo h2 {
+  color: #071c35;
+}
+
+.ourMissionCard .cardContent .cardInfo p {
+  color: #777777;
+}
+
+.ourMissionCard .cardContent .cardInfo a {
+  color: #e5588d;
+  font-size: 18px;
+}
+
+.ourMissionCard .cardContent .cardInfo a i {
+  color: #e5588d;
+  font-size: 15px;
+}
+
+.ourMissionCard:hover {
+  transform: translateY(-20px);
+  border: 3px solid #e5588d;
+}
+
+.ourMissionCard:hover .cardContent .icon {
+  color: #e5588d;
+}
+/*# sourceMappingURL=index.css.map */
