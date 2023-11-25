@@ -1,6 +1,6 @@
 import './App.scss';
 import Navbar from './Sections/Navbar';
-import Footer from './Sections/Footer'
+import Footer from './Sections/Footer';
 
 
 function App() {
@@ -8,6 +8,7 @@ function App() {
     <>
       <Navbar />
 
+      
       <Footer />
     </>
 
