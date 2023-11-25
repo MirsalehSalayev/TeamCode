@@ -1,0 +1,31 @@
+#ourMission{
+    max-width: 100%;
+    min-height: 650px;
+    background-color: #f5f5f5;
+    .sectionContainer{
+       margin: auto;
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 40px;
+    min-height: 650px;
+    .sectionContet{
+    max-width: 60%;
+    .title{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .text{
+        color: #777777;
+    }
+    }
+    .cardContainer{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 30px;
+    }
+   } 
+}
