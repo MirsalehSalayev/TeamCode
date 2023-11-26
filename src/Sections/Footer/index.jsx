@@ -23,30 +23,30 @@ function Footer() {
                     <div className="ourLinks">
                         <h2>Our Links</h2>
                         <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li><span><i class="fa-solid fa-chevron-right"></i></span> Lorem, ipsum.</li>
+                            <li><span><i class="fa-solid fa-chevron-right"></i></span> Lorem, ipsum.</li>
+                            <li><span><i class="fa-solid fa-chevron-right"></i></span> Lorem, ipsum.</li>
+                            <li><span><i class="fa-solid fa-chevron-right"></i></span> Lorem, ipsum.</li>
+                            <li><span><i class="fa-solid fa-chevron-right"></i></span> Lorem, ipsum.</li>
                         </ul>
                     </div>
                     <div className="bookLand">
                         <h2>Bookland</h2>
                         <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li><span><i class="fa-solid fa-chevron-right"></i></span> Lorem, ipsum.</li>
+                            <li><span><i class="fa-solid fa-chevron-right"></i></span> Lorem, ipsum.</li>
+                            <li><span><i class="fa-solid fa-chevron-right"></i></span> Lorem, ipsum.</li>
+                            <li><span><i class="fa-solid fa-chevron-right"></i></span> Lorem, ipsum.</li>
+                            <li><span><i class="fa-solid fa-chevron-right"></i></span> Lorem, ipsum.</li>
                         </ul></div>
                     <div className="resources">
                         <h2>Resources</h2>
                         <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li><span><i class="fa-solid fa-chevron-right"></i></span> Lorem, ipsum.</li>
+                            <li><span><i class="fa-solid fa-chevron-right"></i></span> Lorem, ipsum.</li>
+                            <li><span><i class="fa-solid fa-chevron-right"></i></span> Lorem, ipsum.</li>
+                            <li><span><i class="fa-solid fa-chevron-right"></i></span> Lorem, ipsum.</li>
+                            <li><span><i class="fa-solid fa-chevron-right"></i></span> Lorem, ipsum.</li>
                         </ul>
                     </div>
                     <div className="getInTouch">
@@ -61,9 +61,9 @@ function Footer() {
             </div>
             <div className="footerBottom">
                 <div className="rightsAreReserved">Bookland Book Store Ecommerce Website - © 2022 All Rights Reserved</div>
-          <div className="madeWithLove">
-            Made with <i class="fa-solid fa-heart"> </i> by Group № 4
-          </div>
+                <div className="madeWithLove">
+                    Made with <i class="fa-solid fa-heart"> </i> by Group № 4
+                </div>
             </div>
         </footer>
     )
