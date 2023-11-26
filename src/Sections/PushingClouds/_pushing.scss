@@ -1,38 +1,42 @@
 @import "/src/color.scss";
-.pushingComp{
-    background-image: "/src/images/waveelement2.png";
-    // background-color: red;
+.pushingComp {
+    background-image: url("https://bookland.wprdx.com/demo/wp-content/themes/bookland/assets/images/background/waveelement2.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    min-width: 200px;
+    width: 100%;
     margin-top: 90px;
     height: 800px;
-    width: 100%;
+    max-width: 100%;
     display: flex;
-    gap: 100px;
     justify-content: space-between;
-    // background-color: red;
     height: auto;
     margin: 30px auto;
+
     .pushingContOne{
-        // background-color: green;
-        // justify-content: space-evenly;
+
+
         justify-content: center;
         gap: 50px;
-        width: 40%;
+        width: 50%;
         margin-left: 10%;
         display: flex;
         flex-direction: column;
-        // gap:20px;
+
         
         .bestCont{
-            // gap:10px;
+
             display: flex;
             flex-direction: column;
             .bestTitle{
                 color:$colorWeb;
+                font-weight: 300;
+                letter-spacing: 30px;
             }
 
             h2{
 
-                font-size: 50px;
+                font-size: 60px;
             }
             
             
@@ -72,13 +76,14 @@
                 border-left: 1px solid $titleColor;
                 p{
                     color: $titleColor;
+                    font-size: 17px;
                 }
             }
             .priceCont{
                 display: flex;
                 gap: 10px;
                 align-items: center;
-                // background-color: green;
+
                 color:black;
                 .priceOne{
                     font-size: 30px;
@@ -110,7 +115,7 @@
                     border:1px solid black;
                     width: 110px;
                     border-radius: 7px;
-                    // border: none;
+
                     background-color:white;
                     height: 40px;
                     display: flex;
@@ -118,32 +123,115 @@
                     align-items: center;
                 }
             }
-            .imgCont{
-                display: flex;
-                flex-direction: column;
-                .images{
-                    display: flex;
-                    gap: 10px;
-                    max-width: 100px;
-                    // background-color: purple;
-                    img{
-                        // width: 100px;
-                        // height: 100px;
-
-                    }
-                }
+            .buttonCustom:hover{
+                color:white;
+                background-color: purple;
+                
+            }
+            button:hover{
+                color:white;
+                background-color:hotpink;
                 
             }
         }    
+        .imgCont{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            .imagesComp{
+                display: flex;
+                gap: 20px;
+
+            }
+            
+        }
         }
         .pushingContTwo{
             z-index: 1;
-            background-image: url("https://bookland.wprdx.com/demo/wp-content/uploads/2022/09/banner-media2.png");
-            width: 40%;
+
+            max-width: 70%;
+            background-size: 100% 100%;
             background-repeat: no-repeat;
-            // background-attachment: fixed;
+
             background-position: right;
             height: 800px;
-            // display: flex;
+            
+
+            .imgContTwo {
+                max-width: 700px;
+                min-width: 200px;
+                width: 100%;
+
+            }
+            .cardPush{
+                display: flex;
+                width: 600px;
+                position:absolute;
+                gap: 10px;
+                top: 700px;
+                flex-direction: row;
+
+                height: auto;
+                left: 800px;
+
+            }
+        }
+    }
+    @media only screen and (max-width: 768px) {
+        .pushingComp{
+            flex-direction: column;
+            justify-content: center;
+             width: 80%;
+             align-items: center;
+             .pushingContOne{
+
+
+                justify-content: center;
+                gap: 35px;
+                width: 100% !important;
+                margin-left: 10%;
+                display: flex;
+                flex-direction: column;
+
+            }
+             .pushingContTwo{
+                z-index: 1;
+
+                width: 70%;
+           
+                height: 800px;
+
+                .imgContTwo{
+                    max-width: 500px;
+                    min-width: 200px
+                }
+                .cardPush{
+                    display: none !important;
+                }
+
+
+        }
+
+    }}
+    @media only screen and (min-width: 320px) and (max-width: 425px) {
+        .priceCont {
+            display: none !important;
+        }
+        .imgCont {
+            display: none !important;
+        }
+        .NapoleonCont {
+            display: none !important;
+        }
+        .cardPush{
+            display: none !important;
+
+        }
+    }
+    @media only screen and (max-width: 1024px) {
+        .cardPush{
+            display: none !important;
+
         }
     }
