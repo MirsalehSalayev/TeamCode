@@ -1,4 +1,5 @@
 import React from 'react'
+import PushingCard from '../../Components/PushingCard'
 import "./_pushing.scss"
 import Button from '../../Components/Button'
 
@@ -34,7 +35,7 @@ const Pushing = () => {
                 <div className='titleCont'>
                     <div className='text'>
                         <p>
-                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal.
+                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using  Ipsum is that it has a more-or-less normal.
                         </p>
                     </div>
                     <div className='priceCont'>
@@ -44,14 +45,14 @@ const Pushing = () => {
                     </div>
                     <div className='buttonCont'>
                         <Button title='Buy Now' id="buttonComp" />
-                        <button className="buttonCustom" title='Buy Now'>Buy Now</button>
+                        <button className="buttonCustom" >See details</button>
                     </div>
                 </div>
                 <div className='imgCont'>
                     <div>
-                        <h4>Partner</h4>
+                        <h4 >Partner</h4>
                     </div>
-                    <div className='images'>
+                    <div className='imagesComp'>
                         <img src="https://bookland.wprdx.com/demo/wp-content/uploads/2022/09/partner-1.png" alt="" />
                         <img src="https://bookland.wprdx.com/demo/wp-content/uploads/2022/09/partner-2.png" alt="" />
                         <img src="https://bookland.wprdx.com/demo/wp-content/uploads/2022/09/partner-3.png" alt="" />
@@ -59,8 +60,12 @@ const Pushing = () => {
                 </div>
             </div>
             <div className='pushingContTwo'>
-                {/* <img src="/src/images/banner-media2.png" alt="" /> */}
+                <img className='imgContTwo' src="https://bookland.wprdx.com/demo/wp-content/uploads/2022/09/banner-media2.png" alt="" />
+                <div className='cardPush'>
+                    <PushingCard />
+                    <PushingCard style={{ opacity: "0.5" }} />
 
+                </div>
 
             </div>
 
