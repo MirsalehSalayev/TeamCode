@@ -5,6 +5,7 @@ import Footer from './Sections/Footer'
 import OurMission from './Sections/OurMission';
 import RecomendedForYou from './Sections/RecomendedForYou';
 import BooksOnSale from './Sections/BookSale';
+import OurPricing from './Sections/OurPricing';
 
 
 function App() {
@@ -12,9 +13,10 @@ function App() {
     <>
       <Navbar />
       <Pushing />
-<RecomendedForYou/>
-      <OurMission/>
-      <BooksOnSale/>
+      <RecomendedForYou />
+      <OurMission />
+      <BooksOnSale />
+      <OurPricing />
       <Footer />
     </>
 
