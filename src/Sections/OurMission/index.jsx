@@ -11,12 +11,11 @@ const OurMission = () => {
                     <div className='text'><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p></div>
                 </div>
                 <div className='cardContainer'>
-                    <Card icon='fa-book' />
-                    <Card icon='fa-award' />
-                    <Card icon='fa-store' />
-                </div>
+            <Card icon='fa-book' title='Best Bookstore'/>
+            <Card icon='fa-award' title='Trusted Seller'/>
+            <Card icon='fa-store' title='Expand Store'/>
             </div>
-
+           </div>
         </div>
     )
 }

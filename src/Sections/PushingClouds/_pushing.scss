@@ -1,0 +1,237 @@
+@import "/src/color.scss";
+.pushingComp {
+    background-image: url("https://bookland.wprdx.com/demo/wp-content/themes/bookland/assets/images/background/waveelement2.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    min-width: 200px;
+    width: 100%;
+    margin-top: 90px;
+    height: 800px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    margin: 30px auto;
+
+    .pushingContOne{
+
+
+        justify-content: center;
+        gap: 50px;
+        width: 50%;
+        margin-left: 10%;
+        display: flex;
+        flex-direction: column;
+
+        
+        .bestCont{
+
+            display: flex;
+            flex-direction: column;
+            .bestTitle{
+                color:$colorWeb;
+                font-weight: 300;
+                letter-spacing: 30px;
+            }
+
+            h2{
+
+                font-size: 60px;
+            }
+            
+            
+            .NapoleonCont{
+                display: flex;
+                justify-content: space-between;
+                width: 80%;
+                align-items: center;
+
+                .napText{
+                    gap:20px;
+                    display: flex;
+                    color: black;
+                }
+                .datCont{
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 10px;
+                    width: 50px;
+                    span{
+                        border-radius: 50%;
+                        width: 5px;
+                        height: 5px;
+                        background-color:purple;
+                    }
+                }
+
+
+            }
+        }
+        .titleCont{
+            gap:40px;
+            display: flex;
+            flex-direction: column;
+            .text{
+                padding: 2px 20px;
+                border-left: 1px solid $titleColor;
+                p{
+                    color: $titleColor;
+                    font-size: 17px;
+                }
+            }
+            .priceCont{
+                display: flex;
+                gap: 10px;
+                align-items: center;
+
+                color:black;
+                .priceOne{
+                    font-size: 30px;
+                    color: $colorWeb;
+                }
+                .priceTwo{
+                    font-size: 20px;
+                }
+                .priceThree{
+                    background-color: $colorWeb;
+                    padding: 3px;
+                    color: white;
+                    border-radius: 3px;
+                   
+
+                    font-size: 15px;
+                }
+
+                
+            }
+            .buttonCont{
+                display: flex;
+                gap: 20px;
+                button{
+                    color: white 
+                }
+                .buttonCustom{
+                    color:black; 
+                    border:1px solid black;
+                    width: 110px;
+                    border-radius: 7px;
+
+                    background-color:white;
+                    height: 40px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+            .buttonCustom:hover{
+                color:white;
+                background-color: purple;
+                
+            }
+            button:hover{
+                color:white;
+                background-color:hotpink;
+                
+            }
+        }    
+        .imgCont{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            .imagesComp{
+                display: flex;
+                gap: 20px;
+
+            }
+            
+        }
+        }
+        .pushingContTwo{
+            z-index: 1;
+
+            max-width: 70%;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+
+            background-position: right;
+            height: 800px;
+            
+
+            .imgContTwo {
+                max-width: 700px;
+                min-width: 200px;
+                width: 100%;
+
+            }
+            .cardPush{
+                display: flex;
+                width: 600px;
+                position:absolute;
+                gap: 10px;
+                top: 700px;
+                flex-direction: row;
+
+                height: auto;
+                left: 800px;
+
+            }
+        }
+    }
+    @media only screen and (max-width: 768px) {
+        .pushingComp{
+            flex-direction: column;
+            justify-content: center;
+             width: 80%;
+             align-items: center;
+             .pushingContOne{
+
+
+                justify-content: center;
+                gap: 35px;
+                width: 100% !important;
+                margin-left: 10%;
+                display: flex;
+                flex-direction: column;
+
+            }
+             .pushingContTwo{
+                z-index: 1;
+
+                width: 70%;
+           
+                height: 410px;
+
+                .imgContTwo{
+                    max-width: 500px;
+                    min-width: 200px
+                }
+                .cardPush{
+                    display: none !important;
+                }
+
+
+        }
+
+    }}
+    @media only screen and (min-width: 320px) and (max-width: 425px) {
+        .priceCont {
+            display: none !important;
+        }
+        .imgCont {
+            display: none !important;
+        }
+        .NapoleonCont {
+            display: none !important;
+        }
+        .cardPush{
+            display: none !important;
+
+        }
+    }
+    @media only screen and (max-width: 1024px) {
+        .cardPush{
+            display: none !important;
+
+        }
+    }

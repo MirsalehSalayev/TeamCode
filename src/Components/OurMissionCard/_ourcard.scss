@@ -1,3 +1,4 @@
+@import "/src/color.scss";
 .ourMissionCard{
     max-width: 370px;
     min-height: 370px;
@@ -31,16 +32,28 @@
         }
         
         a{
-            color: #e5588d;
+            color: $colorWeb;
             font-size: 18px;
              i{
-                color: #e5588d;
+                color: $colorWeb;
                  font-size: 15px;
               }
         }
         }
     }
-    
+    @media screen and (max-width: 768px){
+        .cardContent{
+            max-width: 285px;
+          
+        }
+
+    }
+    @media screen and (max-width: 426px){
+        .cardContent{
+            max-width:100%!important;
+          
+        }
+    }
 }
 .ourMissionCard:hover{
     transform: translateY(-20px);
