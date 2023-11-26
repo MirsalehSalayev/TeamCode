@@ -19,20 +19,20 @@ function App() {
             <>
                   <Navbar />
                   <Pushing />
-                  <Bookland />
+                  {/* <Bookland /> */}
                   <RecomendedForYou />
                   <OurMission />
                   <BooksOnSale />
-                  <Customer/>
-                  
+                  {/* <Customer/> */}
+
                   <OurPricing />
                   <Subscribe/>
                   <Footer />
-    </>
+            </>
 
-  );
+      );
 
-    
+
 
 }
 
