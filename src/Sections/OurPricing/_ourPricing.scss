@@ -1,6 +1,6 @@
 #ourPricing {
     background-color: #F5F5F5;
-
+    min-height: 930px;
     .ourPricingCont {
         h1 {
             font-size: 50px;
@@ -8,7 +8,7 @@
         }
 
         margin: 0 auto;
-        padding: 5% 0;
+        // height: 100vh;
         width: 80%;
         display: flex;
         justify-content: center;
