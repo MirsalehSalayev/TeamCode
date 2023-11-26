@@ -136,6 +136,7 @@ footer {
         align-items: center;
         max-width: 100%;
         gap: 20px;
+
     }
 
     .footerBottom {
@@ -143,5 +144,13 @@ footer {
         justify-content: center;
         gap: 20px;
         align-items: center;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #footerTop {
+        .rigthSide {
+            flex-direction: column;
+        }
     }
 }
