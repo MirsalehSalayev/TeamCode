@@ -1,3 +1,4 @@
+@import '/src/color.scss';
 .iconCart{
     width: 277px;
     height: 200px;
@@ -6,7 +7,7 @@
     gap: 15px;
     align-items: center;
     .iconHeader{
-        color: #071c35;
+        color: $sectiontitlecolor;
         font-size: 1.25rem;
         font-weight: 600;
         line-height: 1.4;
@@ -17,7 +18,7 @@
     }
     .icon{
         background-color: rgba(229, 88, 141, 0.1);
-        color:#e5588d;
+        color:$colorWeb;
         width: 60px;
         height: 60px;
          display: flex;
@@ -26,7 +27,7 @@
          border-radius: 7px;
          transition: 500ms;
          &:hover{
-            background-color:#e5588d; 
+            background-color:$colorWeb; 
             color: white;
          }
     }

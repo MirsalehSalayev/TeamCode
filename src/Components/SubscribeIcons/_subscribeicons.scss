@@ -1,0 +1,18 @@
+@import '/src/color.scss';
+.subscribeCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .icn{
+        border: 3px dotted $colorWeb;
+        width: 80px;
+        height: 80px;
+        border-radius: 7px;
+        color: $colorWeb;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+    }
+}
