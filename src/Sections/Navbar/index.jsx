@@ -37,7 +37,7 @@ function Navbar() {
                             <i class="fa-solid fa-bars"></i>
                         </div>
                         <div className="getInTouch">
-                            <button>Get in Touch</button>
+                            <Button title="Get in Touch" />
                         </div>
 
                     </div>
@@ -84,7 +84,7 @@ function Navbar() {
                     </div>
 
                     <div className="getInTouch">
-                        <Button title="get" />
+                        <Button title="Get in Touch" />
                     </div>
 
                 </div>
