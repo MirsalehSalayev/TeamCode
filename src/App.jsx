@@ -11,6 +11,7 @@ import BooksOnSale from './Sections/BookSale';
 
 import Customer from './Sections/CustomerSaid';
 import OurPricing from './Sections/OurPricing';
+import Subscribe from './Sections/Subscribe';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
                   {/* <Customer/> */}
 
                   <OurPricing />
+                  <Subscribe/>
                   <Footer />
             </>
 
