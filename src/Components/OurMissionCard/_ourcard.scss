@@ -41,7 +41,19 @@
         }
         }
     }
-    
+    @media screen and (max-width: 768px){
+        .cardContent{
+            max-width: 285px;
+          
+        }
+
+    }
+    @media screen and (max-width: 426px){
+        .cardContent{
+            max-width:100%!important;
+          
+        }
+    }
 }
 .ourMissionCard:hover{
     transform: translateY(-20px);
