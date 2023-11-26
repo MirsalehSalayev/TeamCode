@@ -1,4 +1,5 @@
 @import "/src/color.scss";
+
 header {
     // margin-bottom: 20px;
 
@@ -130,7 +131,8 @@ header {
                 .getInTouch {
                     button {
                         background-color: #E5588D;
-                        // padding: 8px;
+                        width: 150px;
+                        height: 60px;
                         font-size: 18px;
                         border: none;
                         border-radius: 5px;
@@ -156,7 +158,9 @@ header {
             .getInTouch {
                 button {
                     background-color: #E5588D;
-                    padding: 15px;
+                    // padding: 30px !important;
+                    width: 150px;
+                    height: 60px;
                     font-size: 18px;
                     border: none;
                     border-radius: 5px;
@@ -279,7 +283,7 @@ header {
     }
 }
 
-@media only screen and (max-width: 1068px) {
+@media only screen and (max-width: 768px) {
     .responsivePart {
         .getInTouch {
             display: none;
