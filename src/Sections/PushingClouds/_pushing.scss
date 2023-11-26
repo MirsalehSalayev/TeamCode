@@ -1,24 +1,50 @@
+@import "/src/color.scss";
 .pushingComp{
+    // margin-top: 90px;
     width: 80%;
     display: flex;
-    margin:auto;
+    gap: 60px;
+    margin: 90px auto;
     .pushingContOne{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    gap:20px;
-
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+        
         .bestCont{
-            gap:20px;
+            gap:10px;
             display: flex;
             flex-direction: column;
+            h2{
 
-
+                font-size: 50px;
+            }
+            
+            
             .NapoleonCont{
-                gap:20px;
-                
                 display: flex;
-                color: red;
+                justify-content: space-between;
+                width: 80%;
+                align-items: center;
+
+                .napText{
+                    gap:20px;
+                    display: flex;
+                    color: black;
+                }
+                .datCont{
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 10px;
+                    width: 50px;
+                    span{
+                        border-radius: 50%;
+                        width: 5px;
+                        height: 5px;
+                        background-color:purple;
+                    }
+                }
+
 
             }
         }
@@ -26,13 +52,21 @@
             gap:20px;
             display: flex;
             flex-direction: column;
+            .text{
+                padding: 2px 20px;
+                border-left: 1px solid $titleColor;
+                p{
+                    color: $titleColor;
+                }
+            }
             .priceCont{
                 display: flex;
                 background-color: green;
-                color: red;
+                color:black;
             }
             .buttonCont{
                 display: flex;
+                gap: 20px;
             }
         }    
         }
