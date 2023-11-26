@@ -4,6 +4,7 @@ import Pushing from './Sections/PushingClouds';
 import Footer from './Sections/Footer'
 import OurMission from './Sections/OurMission';
 import RecomendedForYou from './Sections/RecomendedForYou';
+import BooksOnSale from './Sections/BookSale';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Pushing />
 <RecomendedForYou/>
       <OurMission/>
+      <BooksOnSale/>
       <Footer />
     </>
 
