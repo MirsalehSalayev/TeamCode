@@ -1,44 +1,51 @@
 @import '/src/color.scss';
-section{
-   background-color: red;
-   display: flex;
-   // height: 90vh;
-   // max-width: 100%;
-   justify-content: space-around;
-   .container{
+
+
+   .booklandContainer{
+      background-color: red;
+
       display: flex;
-      max-width: 80%;
+      width: 80%;
+      margin: 0 130px;
+      justify-content: space-around;
+      min-height: 500px;
       flex-direction: column;
          .bookland{
-         padding-top: 5em;
-         height: 70vh;
-         max-width: 100%;
-         display: flex;
-         margin-bottom: 70px;
+            background-color:purple;
+            align-items: center;
+            // padding-top: 5em;
+            // height: 70vh;
+            // max-width: 100%;
+            display: flex;
+            // margin-bottom: 70px;
         
 
      .leftpart{
+      background-color: green;
+
         display: flex;
-        max-width: 50%;
+      //   width: 50%;
         .img1{
+
          max-width: 500px;
-         margin-right: 10px; 
-         padding: 1em;    
-         img{
+         // margin-right: 10px; 
+         // padding: 1em;    
+         .booklandImgOne{
             height: 100%;
             border-radius: 10px;
          }
          
         }
         .img2{
+         background-color: blue;
          max-width: 100%;
          max-height: 100%;
          margin-left: 10px;
-         padding: 1em;
+         // padding: 1em;
           .image_2{
             max-width: 300px;
             max-height: 400px;
-            img{
+            .booklandImgTwo{
                width: 100%;
                height: 100%;
                border-radius: 10px;
@@ -47,11 +54,12 @@ section{
          }
          .part_50_container{
             
+            
             max-width: 500px;
             max-height: 200px;
-            margin-left: -13rem;
+            // margin-left: -13rem;
             display: flex;
-            padding-left: 40px;
+            // padding-left: 40px;
             
             .part_50{
                 display: flex;
@@ -60,8 +68,8 @@ section{
                height: 160px;
                width: 150px;
                border-radius: 6px;
-               gap: 20px;
-               padding: 10px;
+               // gap: 20px;
+               // padding: 10px;
                text-align: center;
                color: white;
                font-family: Poppins,sans-serif;
@@ -76,19 +84,20 @@ section{
 
             }
               .info{
+
                display: flex;
                align-items: center;
                justify-content: center;
                max-width: 100%;
-               padding: 20px 40px;
+               // padding: 20px 40px;
                background-color: white;
                li{
-                  padding: 5px;
+                  // padding: 5px;
                   color: #767676;
                   font-size: 16px;
                   i{
                      color:$colorWeb;
-                     margin: 0 10px ;
+                     // margin: 0 10px ;
                      font-size: 20px;
                      
                     
@@ -101,15 +110,25 @@ section{
         }
      }
      .rightpart{
-      
+      background-color: orange;
+justify-content: center;
+align-items: flex-start;
+      padding: 30px;
       max-width: 50%;
-      height: 100%;
+      // height: 100%;
+      display: flex;
+      flex-direction: column;
+
+      gap: 30px;
+
       .rightpart_content{
+         gap: 30px;
+         background-color: aqua;
          display: flex;
          flex-direction: column;
-         padding-top: 7rem;
-         padding-left:30px ;
-         padding-right: 30px;
+         // padding-top: 7rem;
+         // padding-left:30px ;
+         // padding-right: 30px;
          h2{
          font-size: 50px;
 
@@ -117,11 +136,11 @@ section{
       p{
          font-size: 18px;
          color: #767676;
-         padding: 40px 0;
+         // padding: 40px 0;
       }
       }
       .getInTouch{
-         margin-top:30px ;
+         // margin-top:30px ;
       }
       
 
@@ -130,10 +149,11 @@ section{
      }
 }
       .logoipsum{
-         height: 30vh;
+         // height: 30vh;
+         background-color: yellow;
          display: flex;
          justify-content: space-around;
-         margin-top: 10px;
+         // margin-top: 10px;
          max-width: 100%;
          img{
            max-width:200px;
@@ -141,8 +161,7 @@ section{
          }
       }
    }
- 
 
 
 
-}
+
