@@ -1,0 +1,55 @@
+@import '/src/color.scss';
+
+.bookSaleCard{
+    max-width: 300px;
+    min-height: 350px;
+    margin-right: 20px;
+    .cardImage img{
+        max-width: 100%;
+        min-height: 222px;
+        border-radius: 5px;
+    }
+    .cardInfo{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        h2 a{
+            color: #0a2546;
+            font-size: 20px;
+            transition: 500ms;
+            &:hover{
+                color: $colorWeb;
+            }
+        }
+        span a{
+            font-size: 14px;
+            color: $colorWeb;;
+        }
+        .priceAndRating{
+            display: flex;
+            justify-content: space-between;
+            .rating{
+             .fa-star{
+                color: $colorWeb;
+                margin-right:5px;
+               
+             } 
+             span{
+                font-size: 17px;
+             }  
+            }
+            .price{
+                color: $colorWeb;
+                font-size: 20px;
+                font-weight: bold;
+            }
+        }
+    }
+}
+@media screen and (max-width: 768px){
+    .bookSaleCard{
+        max-width: 280px;
+
+    }
+}
