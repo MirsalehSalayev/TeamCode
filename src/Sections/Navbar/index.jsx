@@ -1,5 +1,6 @@
 import React from 'react'
-import "./index.scss"
+import Button from '../../Components/Button'
+import "./_navbar.scss"
 
 
 function Navbar() {
@@ -83,7 +84,7 @@ function Navbar() {
                     </div>
 
                     <div className="getInTouch">
-                        <button>Get in Touch</button>
+                        <Button title="get" />
                     </div>
 
                 </div>
