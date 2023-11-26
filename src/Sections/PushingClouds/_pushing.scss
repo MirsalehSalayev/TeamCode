@@ -1,20 +1,35 @@
 @import "/src/color.scss";
 .pushingComp{
-    // margin-top: 90px;
-    width: 80%;
+    background-image: "/src/images/waveelement2.png";
+    // background-color: red;
+    margin-top: 90px;
+    height: 800px;
+    width: 100%;
     display: flex;
-    gap: 60px;
-    margin: 90px auto;
+    gap: 100px;
+    justify-content: space-between;
+    // background-color: red;
+    height: auto;
+    margin: 30px auto;
     .pushingContOne{
-        width: 50%;
+        // background-color: green;
+        // justify-content: space-evenly;
+        justify-content: center;
+        gap: 50px;
+        width: 40%;
+        margin-left: 10%;
         display: flex;
         flex-direction: column;
-        gap:20px;
+        // gap:20px;
         
         .bestCont{
-            gap:10px;
+            // gap:10px;
             display: flex;
             flex-direction: column;
+            .bestTitle{
+                color:$colorWeb;
+            }
+
             h2{
 
                 font-size: 50px;
@@ -49,7 +64,7 @@
             }
         }
         .titleCont{
-            gap:20px;
+            gap:40px;
             display: flex;
             flex-direction: column;
             .text{
@@ -61,13 +76,74 @@
             }
             .priceCont{
                 display: flex;
-                background-color: green;
+                gap: 10px;
+                align-items: center;
+                // background-color: green;
                 color:black;
+                .priceOne{
+                    font-size: 30px;
+                    color: $colorWeb;
+                }
+                .priceTwo{
+                    font-size: 20px;
+                }
+                .priceThree{
+                    background-color: $colorWeb;
+                    padding: 3px;
+                    color: white;
+                    border-radius: 3px;
+                   
+
+                    font-size: 15px;
+                }
+
+                
             }
             .buttonCont{
                 display: flex;
                 gap: 20px;
+                button{
+                    color: white 
+                }
+                .buttonCustom{
+                    color:black; 
+                    border:1px solid black;
+                    width: 110px;
+                    border-radius: 7px;
+                    // border: none;
+                    background-color:white;
+                    height: 40px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+            .imgCont{
+                display: flex;
+                flex-direction: column;
+                .images{
+                    display: flex;
+                    gap: 10px;
+                    max-width: 100px;
+                    // background-color: purple;
+                    img{
+                        // width: 100px;
+                        // height: 100px;
+
+                    }
+                }
+                
             }
         }    
+        }
+        .pushingContTwo{
+            z-index: 1;
+            background-image: url("https://bookland.wprdx.com/demo/wp-content/uploads/2022/09/banner-media2.png");
+            width: 40%;
+            background-repeat: no-repeat;
+            // background-attachment: fixed;
+            background-position: right;
+            height: 800px;
+            // display: flex;
         }
     }
