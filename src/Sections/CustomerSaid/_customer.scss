@@ -1,0 +1,102 @@
+@import '/src/color.scss';
+
+.customer_section{
+    max-width: 100%;
+    min-height: 700px;
+    background-color: #eee;
+    .customer{
+        max-width: 80%;
+        display: flex;
+        flex-direction: column;
+    
+        .customer_head{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            margin: 40px 150px;
+            text-align: center;
+            max-width: 100%;
+            padding: 40px;
+            h2{
+                font-family: Open Sans,sans-serif;
+                font-size: 40px;
+            }
+            p{
+                color: #7a7a7a;
+            }
+
+            
+
+        }
+        .customer_main{
+            display: flex;
+             padding: 30px;
+             img{
+                border-radius: 20px;
+                max-width: 400px;
+                max-height: 500px;
+
+             }
+             .text_content{
+                display: flex;
+                flex-direction: column;
+                padding: 40px; 
+                .content{
+                font-size: 20px;
+                color: #7a7a7a;
+                font-style: italic;
+                margin-bottom: 40px;
+
+                }
+                .content_title{
+                    display: flex;
+                    justify-content: space-between;
+                   .title{
+    
+                    
+                    h4{
+                        font-size: 22px;
+                        padding-bottom: 10px;
+
+                    }
+                    p{
+                        font-size: 18px;
+                        font-style: italic;
+                        color: #7a7a7a;
+                        padding-bottom: 10px;
+                    }
+                   }
+                   .icons{
+                    display: flex;
+                    font-size: 18px;
+                    i{
+                        padding-right: 10px;
+                    }
+                    .icons1{
+                        color: rgb(215, 161, 12);
+                    }
+                    .icons2{
+                        color: #7a7a7a;
+                        display: flex;
+                        
+                    
+                    }
+                    span{
+                        font-weight: bolder;
+                    }
+                   
+                   }
+                    .quote{
+                        font-size: 80px;
+                        color: $colorWeb;
+                    }
+
+                }
+
+             }
+
+            
+
+        }
+    }
+}

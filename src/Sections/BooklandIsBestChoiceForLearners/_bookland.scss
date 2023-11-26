@@ -1,4 +1,4 @@
-
+@import '/src/color.scss';
 section{
    background-color: red;
    display: flex;
@@ -56,7 +56,7 @@ section{
             .part_50{
                 display: flex;
                flex-direction: column;
-               background-color: #e5588d;
+               background-color: $colorWeb;
                height: 160px;
                width: 150px;
                border-radius: 6px;
@@ -87,7 +87,7 @@ section{
                   color: #767676;
                   font-size: 16px;
                   i{
-                     color: #e5588d;
+                     color:$colorWeb;
                      margin: 0 10px ;
                      font-size: 20px;
                      
