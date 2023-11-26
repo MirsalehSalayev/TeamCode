@@ -8,22 +8,22 @@ import Bookland from './Sections/BooklandIsBestChoiceForLearners';
 
 import RecomendedForYou from './Sections/RecomendedForYou';
 import BooksOnSale from './Sections/BookSale';
+import OurPricing from './Sections/OurPricing';
 
 function App() {
-  return (
-    <>
-      <Navbar />
-      <Pushing />
-      <Bookland/>
+      return (
+            <>
+                  <Navbar />
+                  <Pushing />
+                  <Bookland />
+                  <RecomendedForYou />
+                  <OurMission />
+                  <BooksOnSale />
+                  <OurPricing />
+                  <Footer />
+            </>
 
-      <OurMission/>
-<RecomendedForYou/>
-      <OurMission/>
-      <BooksOnSale/>
-      <Footer />
-    </>
-
-  );
+      );
 }
 
 export default App;

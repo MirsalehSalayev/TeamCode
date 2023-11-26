@@ -1,0 +1,117 @@
+.ourPricingCard {
+    background-color: white;
+    max-width: 700px;
+    min-height: 550px;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    border-radius: 15px;
+    transition: .6s;
+
+    .ourPricingCardPrice {
+        font-size: 40px;
+        color: #E5588D;
+        font-weight: 900;
+
+        span {
+            font-size: 20px;
+            color: #1F2471;
+            font-weight: 500;
+        }
+    }
+
+    .ourPricingCardText {
+        text-align: center;
+        color: #777777;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #e4e4e4;
+    }
+
+    .ourPricingCardButton {
+        button {
+            font-size: 18px;
+            color: white;
+        }
+    }
+
+    .ourPricingCardCourses {
+        ul {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            justify-content: left;
+
+            li {
+                display: flex;
+                align-items: center;
+                text-align: left;
+                color: #777777;
+                display: flex;
+                gap: 10px;
+
+                .coursesIcon {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: #FCEEF3;
+                    color: #E5588D;
+                    width: 25px;
+                    height: 25px;
+                    border-radius: 50%;
+                }
+            }
+        }
+
+
+    }
+}
+
+.ourPricingCard:hover {
+    transform: translateY(-20px);
+    background-color: #e5588d;
+
+    h2 {
+        color: #ffffff;
+    }
+
+    .ourPricingCardPrice {
+        color: #ffffff;
+
+        span {
+            color: #ffffff;
+
+        }
+    }
+
+    .ourPricingCardText {
+        color: #ffffff;
+    }
+
+    .ourPricingCardCourses {
+        ul {
+            li {
+                color: #ffffff;
+
+                div {
+                    background-color: #f1c1d2;
+
+                    i {
+
+
+                        color: #ffffff;
+                    }
+                }
+            }
+        }
+    }
+
+    .ourPricingCardButton {
+        button {
+            color: #E5588D;
+            background-color: #e4e4e4;
+        }
+    }
+
+}
