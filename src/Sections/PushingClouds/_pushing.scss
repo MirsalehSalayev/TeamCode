@@ -1,0 +1,39 @@
+.pushingComp{
+    width: 80%;
+    display: flex;
+    margin:auto;
+    .pushingContOne{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+
+        .bestCont{
+            gap:20px;
+            display: flex;
+            flex-direction: column;
+
+
+            .NapoleonCont{
+                gap:20px;
+                
+                display: flex;
+                color: red;
+
+            }
+        }
+        .titleCont{
+            gap:20px;
+            display: flex;
+            flex-direction: column;
+            .priceCont{
+                display: flex;
+                background-color: green;
+                color: red;
+            }
+            .buttonCont{
+                display: flex;
+            }
+        }    
+        }
+    }
