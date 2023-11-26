@@ -8,6 +8,7 @@ import Bookland from './Sections/BooklandIsBestChoiceForLearners';
 
 import RecomendedForYou from './Sections/RecomendedForYou';
 import BooksOnSale from './Sections/BookSale';
+import Customer from './Sections/CustomerSaid';
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
       <OurMission/>
 <RecomendedForYou/>
       <OurMission/>
-      <BooksOnSale/>
+      <BooksOnSale />
+      <Customer/>
       <Footer />
     </>
 
