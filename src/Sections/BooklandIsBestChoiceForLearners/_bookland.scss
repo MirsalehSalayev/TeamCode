@@ -1,8 +1,13 @@
 @import '/src/color.scss';
 section{
+   background-color: red;
    display: flex;
-   // height: 90vh;
+   height: 90vh;
+
    max-width: 100%;
+
+   
+
    justify-content: space-around;
    .container{
       display: flex;
