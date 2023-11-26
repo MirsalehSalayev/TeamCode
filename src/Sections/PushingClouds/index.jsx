@@ -8,7 +8,7 @@ const Pushing = () => {
         <div className='pushingComp'>
             <div className='pushingContOne'>
                 <div className='bestCont'>
-                    <p>BEST SELLER</p>
+                    <p className='bestTitle'>BEST SELLER</p>
                     <h2>Pushing Clouds</h2>
                     <div className='NapoleonCont'>
                         <div className='napText'>
@@ -38,17 +38,29 @@ const Pushing = () => {
                         </p>
                     </div>
                     <div className='priceCont'>
-                        <p>$15.21</p>
-                        <p>$17.2</p>
-                        <p>6% off</p>
+                        <p className='priceOne'>$15.21</p>
+                        <p className='priceTwo'>$17.2</p>
+                        <p className='priceThree'>6% OFF</p>
                     </div>
                     <div className='buttonCont'>
-                        <Button title='Buy Now' />
-                        <Button title='Buy Now' color="#ffff" />
+                        <Button title='Buy Now' id="buttonComp" />
+                        <button className="buttonCustom" title='Buy Now'>Buy Now</button>
+                    </div>
+                </div>
+                <div className='imgCont'>
+                    <div>
+                        <h4>Partner</h4>
+                    </div>
+                    <div className='images'>
+                        <img src="https://bookland.wprdx.com/demo/wp-content/uploads/2022/09/partner-1.png" alt="" />
+                        <img src="https://bookland.wprdx.com/demo/wp-content/uploads/2022/09/partner-2.png" alt="" />
+                        <img src="https://bookland.wprdx.com/demo/wp-content/uploads/2022/09/partner-3.png" alt="" />
                     </div>
                 </div>
             </div>
-            <div>
+            <div className='pushingContTwo'>
+                {/* <img src="/src/images/banner-media2.png" alt="" /> */}
+
 
             </div>
 
