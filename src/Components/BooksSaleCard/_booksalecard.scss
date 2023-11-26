@@ -40,9 +40,18 @@
              }  
             }
             .price{
+                .before{
+                    text-decoration:line-through;
+                    font-weight: bold;
+                    color: gray;
+                    padding-right: 10px;
+                    // font-size: 14px;
+                }
+                .after{
                 color: $colorWeb;
                 font-size: 20px;
                 font-weight: bold;
+                }
             }
         }
     }
