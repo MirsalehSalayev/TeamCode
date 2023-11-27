@@ -1,0 +1,75 @@
+@import '/src/color.scss';
+
+.booksOnSaleSection{
+    max-width: 100%;
+    min-height: 720px;
+    .sectionContainer{
+    margin: auto;
+    max-width: 80%;
+    min-height: 720px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    .sectionHead{
+        display: flex;
+        justify-content: space-between;
+        .sectionName{
+            font-size: 36px;
+            color: $sectiontitlecolor;
+            font-weight: bold;
+        }
+        @media screen and (max-width: 426px){
+            .sectionName{
+                
+                font-size: 22px;
+                
+            }
+        }
+        .swipperIcon{
+            display: flex;
+            gap: 10px;
+            align-items: center;
+          .fa-angle-left,.fa-angle-right{
+            text-align: center;
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            background-color: $colorWeb;
+            border-radius: 50%;
+            margin-top: 0;
+            color: white;
+            cursor: pointer;
+          
+
+          }
+          .fa-circle{
+            color: #dbdbdb;
+            font-size: 9px;
+          }
+          .checked{
+            color: $colorWeb !important;
+          }
+        }
+    }
+    @media screen and (max-width: 768px){
+        .sectionHead{
+            margin-top: 30px;
+        }
+    }
+    .cardContainer{
+        display: flex;
+       
+    } 
+    @media screen and (max-width: 768px){
+    .cardContainer{
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    
+    }
+}
+
+}

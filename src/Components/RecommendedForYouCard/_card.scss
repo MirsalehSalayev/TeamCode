@@ -1,0 +1,55 @@
+@import '/src/color.scss';
+.card{
+    width: 210px;
+    height: 423px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+ 
+    .image{
+        width: 210px;
+        height: 280px;
+        border-radius: 5px;
+    }
+    
+    .cost{
+        color: #ff1e6f
+    }
+    .btn{
+        display: flex;
+        gap: 10px;
+        background-color: #192436;
+        width: 140px;
+        height: 47px;
+        border-radius: 8px;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        transition: 300ms;
+        &:hover{
+            opacity: 0.8;
+            background-color: #171561;
+        }
+    }
+}
+@media screen and (max-width: 1024px){
+    .card{
+        width: 150px;
+        height: 383px;
+        .image{
+width: 150px;
+height: 220px;
+        }
+    }
+}
+@media screen and (max-width: 768px){
+    .card{
+        width: 250px;
+        height: 400px;
+        .image{
+width: 250px;
+height: 250px;
+        }
+    }
+}
