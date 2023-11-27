@@ -42,7 +42,7 @@ margin-top: 5%;
         display: flex;
         justify-content: center;
         align-items: center;
-        .icons{
+        .iconsRec{
             max-width: 80%;
             display: flex;
             justify-content: space-between;
@@ -58,7 +58,7 @@ margin-top: 5%;
         }
     }
     @media screen and (max-width: 768px){
-        .icons{
+        .iconsRec{
             display: grid !important;
             grid-template-columns: auto auto;
             
@@ -73,7 +73,7 @@ margin-top: 5%;
         }
     }
     @media screen and (max-width: 430px){
-        .icons{
+        .iconsRec{
             display: grid !important;
             grid-template-columns: auto ;
             
