@@ -1,19 +1,22 @@
 import React from 'react'
 import "./_booksalecard.scss"
-const BooksSaleCard = () => {
+const BooksSaleCard = ({img,title,info,rating,beforeprice,price}) => {
   return (
     <div className='bookSaleCard'>
         <div className='cardImage'>
-            <img src="https://bookland.wprdx.com/demo/wp-content/uploads/2022/09/a7cbc9ec4f61f7713101612a45211ebb-450x600.jpg" alt="" />
+            <img src={img} alt="" />
         </div>
         <div className='cardInfo'>
-            <h2><a href="!">Terrible Madness</a></h2>
-            <span><a href="!">Business,  Strategy</a></span>
+            <h2><a href="!">{title}</a></h2>
+            <span><a href="!">{info}</a></span>
             <div className='priceAndRating'>
             <div className='rating'> <i class="fa-solid fa-star"></i>
-            <span>4.00</span> 
+            <span>{rating}</span> 
              </div>
-             <div className='price'><span>$50.00</span></div>
+             <div className='price'>
+                <span className='before'>{beforeprice}</span>
+                <span className='after'>{price}</span>
+                </div>
             </div>
         </div>
     </div>

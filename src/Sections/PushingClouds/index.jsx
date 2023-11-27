@@ -7,6 +7,7 @@ import Button from '../../Components/Button'
 const Pushing = () => {
     return (
         <div className='pushingComp'>
+            <a name="up"></a>
             <div className='pushingContOne'>
                 <div className='bestCont'>
                     <p className='bestTitle'>BEST SELLER</p>
@@ -68,7 +69,13 @@ const Pushing = () => {
                 </div>
 
             </div>
-
+                <div className='fixedIcon'>
+                <i class="fa-solid fa-headset"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div className='upperIcon'>
+                    <a href="#up"><i class="fa-solid fa-arrow-up"></i></a>
+                </div>
         </div>
     )
 }
