@@ -19,14 +19,14 @@ function App() {
             <>
                   <Navbar />
                   <Pushing />
-                  {/* <Bookland /> */}
+                  <Bookland />
                   <RecomendedForYou />
                   <OurMission />
                   <BooksOnSale />
                   {/* <Customer/> */}
 
                   <OurPricing />
-                  <Subscribe/>
+                  <Subscribe />
                   <Footer />
             </>
 

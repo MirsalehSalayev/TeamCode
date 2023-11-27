@@ -1,167 +1,113 @@
-// @import '/src/color.scss';
+
+.Bookland{
+    display: flex;
+    justify-content: center;
+
+}
+.BooklandContainer{
+    display: flex;
+    z-index: 0;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    // margin:0 100px;
+    align-items: center;
+    width: 80%;
+    // background-color: hotpink;
+    .BooklandTop{
+        // background-color: green;
+        display: flex;
+        justify-content: center;
+        .BooklandTopLeft{
+            display: flex;
+            justify-content: center;
+            // background-color: peru;
+            // width: 50%;
+            gap: 10px;
+            .BooklandImgOne{
+                .bookImgOne{
+                    width: 275px;
+                    height: 430px;
+                    border-radius: 6px;
+                }
+
+            }
+            .BooklandLeftVol2{
+                .BooklandImgTwo{
+                    .bookImgTwo{
+                        min-width: 275px;
+                        height: 287px;
+                        border-radius: 6px;
+                    }
+                }
+                .fiftyCont{
+                    display: flex;
+                    z-index: 1;
+                    position: relative;
+                    right:120px;
+                    .fifty{
+                        // padding: 0;
+                        border-radius: 6px;
+                        // gap: 7px;
+                        width: 145px;
+                        
+                        height: 160px;
+                        // font-size: 30px;
+                        display:flex;
+                        flex-direction: column;
+                        justify-content: space-evenly;
+                        align-items: center;
+                        text-align: center;
+                        background-color: black;
+                        color: white;
+                        .fiftyHead{
+                            font-size: 50px !important;
+                        }
+                        .fiftyTitle{
+                            font-size: 20px !important;
+                        }
+                    }
+                    .BookList{
+                        // background-color: burlywood;
+                        width: 254px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-around;
+                        align-items: center;
+                        .BookListComp{
+                            display: flex;
+                            gap: 20px;
+                        }
+                    }
+
+                }
+
+            }
+        }
+        .BooklandTopRight{
+            // background-color: grey;
+            max-width: 100%;
+            display: flex;
+            max-height: 100%;
+            flex-direction: column;
+            justify-content: center;
+            gap:20px;
+            // max-height: 300px;
+            // padding: 30px;
+            font-size: 23px;
+        }
+    }
+    .BooklandBottom{
+        display: flex;
+        justify-content: space-between;
+        // background-color: red;
+        width:100%;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .BooklandTopRight{
+       font-size: 14px !important;
+    }
 
 
-//    .booklandContainer{
-//       background-color: red;
-
-//       display: flex;
-//       width: 80%;
-//       margin: 0 130px;
-//       justify-content: space-around;
-//       min-height: 500px;
-//       flex-direction: column;
-//          .bookland{
-//             background-color:purple;
-//             align-items: center;
-//             // padding-top: 5em;
-//             // height: 70vh;
-//             // max-width: 100%;
-//             display: flex;
-//             // margin-bottom: 70px;
-        
-
-//      .leftpart{
-//       background-color: green;
-
-//         display: flex;
-//       //   width: 50%;
-//         .img1{
-
-//          max-width: 500px;
-//          // margin-right: 10px; 
-//          // padding: 1em;    
-//          .booklandImgOne{
-//             height: 100%;
-//             border-radius: 10px;
-//          }
-         
-//         }
-//         .img2{
-//          background-color: blue;
-//          max-width: 100%;
-//          max-height: 100%;
-//          margin-left: 10px;
-//          // padding: 1em;
-//           .image_2{
-//             max-width: 300px;
-//             max-height: 400px;
-//             .booklandImgTwo{
-//                width: 100%;
-//                height: 100%;
-//                border-radius: 10px;
-//             }
-        
-//          }
-//          .part_50_container{
-            
-            
-//             max-width: 500px;
-//             max-height: 200px;
-//             // margin-left: -13rem;
-//             display: flex;
-//             // padding-left: 40px;
-            
-//             .part_50{
-//                 display: flex;
-//                flex-direction: column;
-//                background-color: $colorWeb;
-//                height: 160px;
-//                width: 150px;
-//                border-radius: 6px;
-//                // gap: 20px;
-//                // padding: 10px;
-//                text-align: center;
-//                color: white;
-//                font-family: Poppins,sans-serif;
-//                h2{
-//                   font-size: 60px;
-                 
-//                }
-//                h6{
-//                   font-size: 20px;
-//                   font-weight: 400;
-//                }
-
-//             }
-//               .info{
-
-//                display: flex;
-//                align-items: center;
-//                justify-content: center;
-//                max-width: 100%;
-//                // padding: 20px 40px;
-//                background-color: white;
-//                li{
-//                   // padding: 5px;
-//                   color: #767676;
-//                   font-size: 16px;
-//                   i{
-//                      color:$colorWeb;
-//                      // margin: 0 10px ;
-//                      font-size: 20px;
-                     
-                    
-//                   }
-//                }
-//             }
-
-//          }
-
-//         }
-//      }
-//      .rightpart{
-//       background-color: orange;
-// justify-content: center;
-// align-items: flex-start;
-//       padding: 30px;
-//       max-width: 50%;
-//       // height: 100%;
-//       display: flex;
-//       flex-direction: column;
-
-//       gap: 30px;
-
-//       .rightpart_content{
-//          gap: 30px;
-//          background-color: aqua;
-//          display: flex;
-//          flex-direction: column;
-//          // padding-top: 7rem;
-//          // padding-left:30px ;
-//          // padding-right: 30px;
-//          h2{
-//          font-size: 50px;
-
-//       }
-//       p{
-//          font-size: 18px;
-//          color: #767676;
-//          // padding: 40px 0;
-//       }
-//       }
-//       .getInTouch{
-//          // margin-top:30px ;
-//       }
-      
-
-      
-      
-//      }
-// }
-//       .logoipsum{
-//          // height: 30vh;
-//          background-color: yellow;
-//          display: flex;
-//          justify-content: space-around;
-//          // margin-top: 10px;
-//          max-width: 100%;
-//          img{
-//            max-width:200px;
-           
-//          }
-//       }
-//    }
-
-
-
-
+}
