@@ -8,9 +8,8 @@ import Bookland from './Sections/BooklandIsBestChoiceForLearners';
 
 import RecomendedForYou from './Sections/RecomendedForYou';
 import BooksOnSale from './Sections/BookSale';
-
-import Customer from './Sections/CustomerSaid';
 import OurPricing from './Sections/OurPricing';
+import WhatCustomerSay from './Sections/WhatCustomerSaid';
 
 
 function App() {
@@ -22,7 +21,7 @@ function App() {
                   <RecomendedForYou />
                   <OurMission />
                   <BooksOnSale />
-                  <Customer/>
+                  <WhatCustomerSay/>
                   
                   <OurPricing />
                   <Footer />
