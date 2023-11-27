@@ -8,11 +8,11 @@ import Bookland from './Sections/BooklandIsBestChoiceForLearners';
 
 import RecomendedForYou from './Sections/RecomendedForYou';
 import BooksOnSale from './Sections/BookSale';
-
-import Customer from './Sections/CustomerSaid';
 import OurPricing from './Sections/OurPricing';
-import Subscribe from './Sections/Subscribe';
 
+import WhatCustomerSay from './Sections/WhatCustomerSaid';
+
+import Subscribe from './Sections/Subscribe';
 
 function App() {
       return (
@@ -23,16 +23,14 @@ function App() {
                   <RecomendedForYou />
                   <OurMission />
                   <BooksOnSale />
-                  {/* <Customer/> */}
 
+                  <WhatCustomerSay/>
                   <OurPricing />
                   <Subscribe />
                   <Footer />
             </>
 
       );
-
-
 
 }
 
